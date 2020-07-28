@@ -44,6 +44,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String addressName = intent.getStringExtra("address");
         LatLng address = new LatLng(lat,lon);
         mMap.addMarker(new MarkerOptions().position(address).title(addressName));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(address));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(address,15));
     }
 }
