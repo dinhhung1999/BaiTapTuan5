@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BaiTapTuan5</string>
+    <string name="message_request_permission_read_phone_state">Chúng tôi cần quyền để xác định thiết bị của bạn</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
